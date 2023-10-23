@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1697742409 source:c:\users\aya maher\desktop\lab2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<time.h>
+
+1697742409 source:d:\iti\c programming\lab2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<time.h>
+

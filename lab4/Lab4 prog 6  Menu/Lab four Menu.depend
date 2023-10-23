@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1697999833 source:d:\iti\c programming\lab four menu\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<conio.h>
+	<dos.h>
+	<dir.h>
+
+1698077389 source:d:\iti\c programming\lab4\lab four menu\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<conio.h>
+	<dos.h>
+	<dir.h>
+	"standard_types.h"
+	"functions.h"
+
+1698060362 d:\iti\c programming\lab4\lab four menu\standard_types.h
+
+1698077479 source:d:\iti\c programming\lab4\lab four menu\functions.c
+	"functions.h"
+
+1698077503 d:\iti\c programming\lab4\lab four menu\functions.h
+	<windows.h>
+	"standard_types.h"
+

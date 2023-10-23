@@ -1,0 +1,79 @@
+    /*while(position>=0&&position<=2){
+
+        char c =getch();
+        if(-32==c){
+            c =getch();
+            // Switch Case
+            switch (c)
+            {
+                case 72:
+                     position--;
+                     if(position){
+
+                     }
+                    break;
+                case 80:
+                    break;
+            }
+
+
+            int x=if_extended(c);
+            printf("%d",x);
+            for(int i=0;i<3;i++){
+            if(1==x){
+                    switch (position)
+                    {
+                        case 2:{
+                        position--;
+                        go_display();
+                        break;
+                    }
+                    case 0:{
+                        position = 2;
+                        go_exit();
+                        break;
+                   }
+                    deualt:{
+                        position--;
+                        go_new();
+                        break;
+                   }
+                }
+            }
+            else if(if_extended(c)==2){
+                switch (position){
+                    case 0:{
+                        position++;
+                        go_display();
+                        break;
+                }
+                case 2:{
+                    position = 0;
+                    go_new();
+                    break;
+                }
+                defualt:
+                    {
+                    position++;
+                    go_exit();
+                }
+
+            }
+        }
+            else{
+                system("cls");
+                if(0==position){
+                    gotoxy(COL,5);
+                    printf("NEW");
+                }
+                else if(1==position){
+                    gotoxy(COL,5);
+                    printf("Display");
+                }
+                else{
+                    gotoxy(COL,5);
+                    printf("Exit");
+                }
+            }
+           }
+          
